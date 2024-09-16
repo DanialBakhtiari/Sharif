@@ -6,6 +6,34 @@ export default {
     "./node_modules/flowbite/**/*.js",
   ],
   theme: {
+    container: {
+      padding: {
+        DEFAULT: "0",
+      },
+      center: true,
+    },
+    screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '1xl': '1360px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+
+      '3xl': '1920px',
+      // => @media (min-width: 1920px) { ... }
+    },
     extend: {
       fontFamily: {
         iranSans: "iranSans",
@@ -37,11 +65,20 @@ export default {
         primary: {
           white: "#FAF9F6",
           black: "#0B1215",
+          blue: "#002051",
+          background: "#F5F5F5",
+
         },
         // Secondary colors
         secondary: {
           white: "#F8F8FF",
           black: "#031602",
+          blue:"#012E71",
+        },
+        accent: {
+          navBarLineHover: "#FFC000",
+          textHover: "#F93D52",
+
         },
       },
     },
