@@ -20,21 +20,114 @@
     />
     <title>دانشگاه صنعتی شریف</title>
   </head>
-  <body>
+  <body class="h-[9000px]">
     <!-- ! SVG Sprite Start -->
-    <svg class="hidden"></svg>
+    <svg class="hidden">
+      <symbol id="account" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><symbol xmlns="http://www.w3.org/2000/svg" id="8aee008f-c652-4dfc-8728-7158478e73f5" viewBox="0 0 512 512">
+        <circle class="lexicon-icon-outline user-head" cx="256" cy="126.1" r="96"></circle>
+        <path class="lexicon-icon-outline user-body" d="M448,398.1c0,112-384,112-384,0C64,200.1,448,202.1,448,398.1z"></path>
+      </symbol><use href="#8aee008f-c652-4dfc-8728-7158478e73f5"></use></symbol>
+
+      <symbol id="dropDownArrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><symbol xmlns="http://www.w3.org/2000/svg" id="2f91daf5-f6bb-41a7-a4ce-ea586d041bd7" viewBox="0 0 512 512">
+        <path class="lexicon-icon-outline" d="M268,339.9l142.6-142.2c16.4-16.4-8.5-41.7-25.1-25.1L256,301.7L126.5,172.5c-16.8-16.7-41.6,8.7-25.1,25.1L244,339.9C251.2,347,261.4,346.4,268,339.9z"></path>
+      </symbol><use href="#2f91daf5-f6bb-41a7-a4ce-ea586d041bd7"></use></symbol>
+      
+      <symbol id="menuSybol" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><symbol xmlns="http://www.w3.org/2000/svg" id="682e9d27-9b1e-43f2-bfba-849b85eaff5a" viewBox="0 0 512 512">
+        <path class="lexicon-icon-outline" d="M32 96h320c17.664 0 32-14.336 32-32s-14.336-32-32-32h-320c-17.664 0-32 14.336-32 32s14.336 32 32 32z"></path>
+        <path class="lexicon-icon-outline" d="M32 224h448c17.664 0 32-14.336 32-32s-14.336-32-32-32h-448c-17.664 0-32 14.336-32 32 0 17.701 14.336 32 32 32z"></path>
+        <path class="lexicon-icon-outline" d="M32 352h320c17.664 0 32-14.336 32-32s-14.336-32-32-32h-320c-17.664 0-32 14.299-32 32 0 17.664 14.336 32 32 32z"></path>
+        <path class="lexicon-icon-outline" d="M480 416h-448c-17.664 0-32 14.336-32 32s14.336 32 32 32h448c17.664 0 32-14.336 32-32s-14.336-32-32-32z"></path>
+      </symbol><use href="#682e9d27-9b1e-43f2-bfba-849b85eaff5a"></use></symbol>
+
+      <symbol id="search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><symbol xmlns="http://www.w3.org/2000/svg" id="b9388e9f-42b6-409b-99fb-fa69c3759c30" viewBox="0 0 512 512">
+        <path class="lexicon-icon-outline" d="M499.2,455.5L377.7,333.4c146-241.1-148.1-435.8-318.2-274c-165.1,185.9,41.6,460.6,273.4,319l121.5,118.8C489.5,535.8,534.4,490.8,499.2,455.5z M206.2,63.6c191.9,0,198.1,289,0,289C13.3,352.6,18.8,63.6,206.2,63.6z"></path>
+      </symbol><use href="#b9388e9f-42b6-409b-99fb-fa69c3759c30"></use></symbol>
+    </svg>
     <!-- ! SVG Sprite End -->
     <!-- @ Main Page Start  -->
     <section class="container">
       <!-- # Header Start-->
        <header class="w-full h-25">
-        <div class="w-full h-3/5 bg-primary-blue py-1 px-2 relative">
-          <img src="./resource/images/logo/logo.png" alt="" class="w-20 h-20 rounded-full ring-[10px] ring-primary-blue">
-        </div>
-        <nav class="w-full h-2/5 bg-secondary-blue"></nav>
-       </header>
+        <div class="w-full h-3/5 bg-primary-blue relative flex items-center justify-between">
+          <img src="./resource/images/logo/logo.png" alt="Sharif Logo" class="w-18 h-18 absolute top-2 right-5 rounded-full ring-10 ring-primary-blue">
+          <div class="">
+            <h1 class="text-primary-white text-xl font-extrabold mr-28">دانشگاه صنعتی شریف</h1>
+          </div>
+          <div class="flex justify-start items-center text-primary-white space-x-3">
+            <span class="text-xs ml-2 hover:text-accent-textHover cursor-pointer transition-colors">EN</span>
+            <span class="text-xs hover:text-accent-textHover cursor-pointer transition-colors">AR</span>
+            <a href="">
+              <svg class="w-3 h-3">
+                <use href="#account"></use>
+              </svg>
+            </a>
+            <a href="">
+              <svg class="w-3 h-3">
+                <use href="#menuSybol"></use>
+              </svg>
+            </a>
 
+          </div>
+        </div>
+        <nav class="w-full h-2/5 bg-secondary-blue flex justify-between items-center">
+          <ul class="flex justify-start items-center text-sm text-primary-white space-x-5 mr-28">
+            <li class="transition-colors after: hover:text-accent-textHover  ml-5">
+              <a href="" class="">
+                صفحه اصلی
+              </a>
+            </li>
+            <li class="transition-colors after: hover:text-accent-textHover  ">
+              <a href="" class="">
+                آشنایی با دانشگاه
+
+              </a>
+            </li>
+            <li class="transition-colors after: hover:text-accent-textHover  ">
+              <a href="" class="">
+                آموزش
+              </a>
+            </li>
+            <li class="transition-colors after: hover:text-accent-textHover  ">
+              <a href="" class="">
+                پژوهش و فناوری
+              </a>
+            </li>
+            <li class="transition-colors after: hover:text-accent-textHover  ">
+              <a href="" class="">
+                فرهنگ در شریف
+              </a>
+            </li>
+            <li class="transition-colors after: hover:text-accent-textHover  ">
+              <a href="" class="">
+                زندگی در دانشگاه
+              </a>
+            </li>
+            <li class="transition-colors after: hover:text-accent-textHover  ">
+              <a href="" class="">
+                پرتال خبری
+              </a>
+            </li>
+          </ul>
+          <div id="searchBar" contenteditable="true" class="w-7 h-6 rounded-full bg-primary-white ml-3 transition-all duration-200 flex justify-end items-center">
+            <svg class="ml-2 w-3 h-3">
+              <use href="#search"></use>
+            </svg>
+          </div>
+        </nav>
+       </header>
       <!-- # Header End-->
+      <!-- # Banner Start  -->
+       <div class="w-full h-fit relative">
+        <img src="./resource/images/herosection/heroSection.png" alt="heroSection">
+        <div class="w-29 h-15 rounded-full bg-secondary-blue/50 absolute top-10 left-5 flex justify-center items-center p-2 gap-x-1 cursor-pointer hover:bg-secondary-blue/80">
+          <span class="text-primary-white text-sm">شریف من</span>
+          <img src="./resource/images/logo/mySharif1.png" alt="mySharif" class="w-10 h-10 rounded-full">
+        </div>
+        <div id="heroWidgetOne" class="w-56 h-32 bg-heroWidgetOne bg-contain absolute bottom-5 right-123 rounded-xl cursor-pointer"></div>
+        <div id="heroWidgetTwo" class="w-56 h-32 bg-heroWidgetTwo bg-contain absolute bottom-5 right-64 rounded-xl cursor-pointer"></div>
+        <div id="heroWidgetThree" class="w-56 h-32 bg-heroWidgetThree bg-contain absolute bottom-5 right-5 rounded-xl cursor-pointer"></div>
+       </div>
+      <!-- # Banner End  -->
     </section>
     <!-- @ Main Page End  -->
 

@@ -42,12 +42,26 @@ export default {
       fontSize: {
         xxs: "0.625rem",
       },
+      ringWidth: {
+        '10': '10px',
+      },
+      backgroundImage: {
+        'heroWidgetOne': "url('../../resource/images/heroSectionWidget/sharifCast.png')",
+        'heroWidgetOneHover': "url('../../resource/images/heroSectionWidget/sharifCastHover.png')",
+        'heroWidgetTwo': "url('../../resource/images/heroSectionWidget/introduceSharif.png')",
+        'heroWidgetTwoHover': "url('../../resource/images/heroSectionWidget/introduceSharifHover.png')",
+        'heroWidgetThree': "url('../../resource/images/heroSectionWidget/Amriye.png')",
+        'heroWidgetThreeHover': "url('../../resource/images/heroSectionWidget/AmriyeHover.png')",
+      },
       // Spacing
       spacing: {
         // Custom spacing values
         4.5: "1.125rem",
         8.5: "2.125rem",
         15: "3.75rem",
+        17:"4.25rem",
+        18:"4.5rem",
+        19:"4.75rem",
         25: "6.25rem",
         29: "7.25rem",
         31: "7.81rem",
@@ -55,10 +69,15 @@ export default {
         39: "9.75rem",
         50: "12.5rem",
         54: "13.5rem",
+        55:"13.75rem",
+        57:"14.25rem",
+        58:"14.5rem",
         69: "17.25rem",
         72: "19.75rem",
         83: "20.75rem",
         91: "22.75rem",
+        120:"30rem",
+        123:"30.75rem"
       },
       colors: {
         // Primary colors
