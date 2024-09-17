@@ -1,4 +1,11 @@
-import { heroWidgetOne, heroWidgetOneHover, newSpan, searchBar } from "./elements";
+import {
+  heroWidgetOne,
+  heroWidgetOneInfo,
+  heroWidgetThree,
+  heroWidgetTwo,
+  newSpan,
+  searchBar,
+} from "./elements";
 
 const searchBarHandler = () => {
   if (searchBar.classList.contains("w-7")) {
@@ -14,14 +21,38 @@ const searchBarHandler = () => {
   }
 };
 
-
-const heroWidgetOneHandler = () => {
-  heroWidgetOne.insertAdjacentElement("afterbegin",heroWidgetOneHover)
-}
-export { searchBarHandler,heroWidgetOneHandler };
-
-
-{/* <div class="w-full h-full bg-primary-blue rounded-xl flex flex-col gap-1">
+const heroWidgetThreeHandler = () => {
+  heroWidgetThree.innerHTML = `<div class="widgetHover">
             <span class="text-accent-navBarLineHover font-bold text-xl m-3">1403</span>
             <span class="text-primary-white font-bold text-lg">اطلاعیه پذیرش داوطلبان امریه</span>
-          </div> */}
+          </div>`;
+};
+
+const heroWidgetOneHandler = () => {
+  // heroWidgetOne.innerHTML = `<div class="widgetHover">
+  //           <span class="text-accent-navBarLineHover font-bold text-xl m-3">1403</span>
+  //           <span class="text-primary-white font-bold text-lg">تقدیر از اساتید داشنگاه شریف</span>
+  //         </div>`;
+
+  heroWidgetOneInfo.classList.remove("hidden")
+};
+
+const heroWidgetTwoHandler = () => {
+  heroWidgetTwo.innerHTML = `<div class="widgetHover">
+            <span class="text-accent-navBarLineHover font-bold text-xl m-3">1403</span>
+            <span class="text-primary-white font-bold text-lg">معرفی دانشکده ها</span>
+          </div>`;
+};
+export {
+  searchBarHandler,
+  heroWidgetOneHandler,
+  heroWidgetTwoHandler,
+  heroWidgetThreeHandler,
+};
+
+{
+  /* <div class="w-full h-full bg-primary-blue rounded-xl flex flex-col gap-1">
+            <span class="text-accent-navBarLineHover font-bold text-xl m-3">1403</span>
+            <span class="text-primary-white font-bold text-lg">اطلاعیه پذیرش داوطلبان امریه</span>
+          </div> */
+}

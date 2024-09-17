@@ -12,7 +12,7 @@
     <meta name="author" content="" />
     <!-- * SEO Tags End -->
     <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.css" />
-    <link rel="stylesheet" href="./source/css/index.css" />
+    <link rel="stylesheet" href="./source/css/tailwind.css" />
     <link
       rel="shortcut icon"
       href="./resource/images/favicon/favicon.ico.png"
@@ -123,11 +123,38 @@
           <span class="text-primary-white text-sm">شریف من</span>
           <img src="./resource/images/logo/mySharif1.png" alt="mySharif" class="w-10 h-10 rounded-full">
         </div>
-        <div id="heroWidgetOne" class="w-56 h-32 bg-heroWidgetOne bg-contain absolute bottom-5 right-123 rounded-xl cursor-pointer"></div>
-        <div id="heroWidgetTwo" class="w-56 h-32 bg-heroWidgetTwo bg-contain absolute bottom-5 right-64 rounded-xl cursor-pointer"></div>
-        <div id="heroWidgetThree" class="w-56 h-32 bg-heroWidgetThree bg-contain absolute bottom-5 right-5 rounded-xl cursor-pointer"></div>
+        <div id="heroWidgetOne" class="w-56 h-32 bg-heroWidgetOne bg-contain absolute bottom-5 right-123 rounded-xl cursor-pointer">
+          <div id="heroWidgetOneInfo" class="hidden widgetHover">
+            <span class="text-accent-navBarLineHover font-bold text-xl m-3">1403</span>
+            <span class="text-primary-white font-bold text-lg">اطلاعیه پذیرش داوطلبان امریه</span>
+          </div>
+          
+        </div>
+        <div id="heroWidgetTwo" class="w-56 h-32 bg-heroWidgetTwo bg-contain absolute bottom-5 right-64 rounded-xl cursor-pointer">
+          <div class="hidden widgetHover">
+            <span class="text-accent-navBarLineHover font-bold text-xl m-3">1403</span>
+            <span class="text-primary-white font-bold text-lg">معرفی دانشکده ها</span>
+          </div>
+        </div>
+        <div id="heroWidgetThree" class="w-56 h-32 bg-heroWidgetThree bg-contain absolute bottom-5 right-5 rounded-xl cursor-pointer">
+          <div class="hidden widgetHover">
+            <span class="text-accent-navBarLineHover font-bold text-xl m-3">1403</span>
+            <span class="text-primary-white font-bold text-lg">اطلاعیه پذیرش داوطلبان امریه</span>
+          </div>
+        </div>
        </div>
       <!-- # Banner End  -->
+      <!-- # Banner Label Start -->
+       <div class="w-full h-14 bg-primary-blue text-primary-white flex justify-between items-center py-2 px-3">
+        <span class="">دانشگاه صنعتی شریف، پرچم‌دار بیداری و تفکر علمی کشور</span>
+        <div class="flex justify-center items-center">
+          <span class="">ادامه بدهید</span>
+          <svg class="w-4 h-4">
+            <use href="#dropDownArrow"></use>
+          </svg>
+        </div>
+       </div>
+      <!-- # Banner Label End -->
     </section>
     <!-- @ Main Page End  -->
 

@@ -12,4 +12,8 @@
     @apply font-iranSans text-primary-black;
   }
 }
-
+@layer components {
+  .widgetHover {
+    @apply w-full h-full px-2 bg-primary-blue rounded-xl flex flex-col gap-1
+  }
+}
