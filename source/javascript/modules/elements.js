@@ -5,6 +5,8 @@ newSpan.textContent = "جستجو...";
 const heroWidgetOne = document.getElementById("heroWidgetOne");
 const heroWidgetOneInfo = document.getElementById("heroWidgetOneInfo")
 const heroWidgetTwo = document.getElementById("heroWidgetTwo");
+const heroWidgetTwoInfo = document.getElementById("heroWidgetTwoInfo")
 const heroWidgetThree = document.getElementById("heroWidgetThree");
+const heroWidgetThreeInfo = document.getElementById("heroWidgetThreeInfo")
 
-export { searchBar, newSpan, heroWidgetThree, heroWidgetTwo, heroWidgetOne,heroWidgetOneInfo };
+export { searchBar, newSpan, heroWidgetThree, heroWidgetTwo, heroWidgetOne,heroWidgetOneInfo,heroWidgetTwoInfo,heroWidgetThreeInfo };

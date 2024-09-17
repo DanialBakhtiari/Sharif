@@ -1,4 +1,4 @@
-import { heroWidgetOne, heroWidgetOneInfo, heroWidgetThree, heroWidgetTwo, newSpan, searchBar } from "./modules/elements";
+import { heroWidgetOne, heroWidgetOneInfo, heroWidgetThree, heroWidgetThreeInfo, heroWidgetTwo, heroWidgetTwoInfo, newSpan, searchBar } from "./modules/elements";
 import { heroWidgetOneHandler, heroWidgetThreeHandler, heroWidgetTwoHandler, searchBarHandler } from "./modules/functions";
 
 searchBar.addEventListener("click",searchBarHandler)
@@ -9,10 +9,10 @@ heroWidgetOne.addEventListener("mouseleave",()=> {
 
 })
 heroWidgetTwo.addEventListener("mouseenter",heroWidgetTwoHandler)
-// heroWidgetTwo.addEventListener("mouseleave",()=> {
-//     heroWidgetTwo.innerHTML= ``
-// })
+heroWidgetTwo.addEventListener("mouseleave",()=> {
+    heroWidgetTwoInfo.classList.add("hidden")
+})
 heroWidgetThree.addEventListener("mouseenter",heroWidgetThreeHandler)
-// heroWidgetThree.addEventListener("mouseleave",()=>{
-//     heroWidgetThree.innerHTML=``
-// })
+heroWidgetThree.addEventListener("mouseleave",()=>{
+    heroWidgetThreeInfo.classList.add("hidden")
+})
