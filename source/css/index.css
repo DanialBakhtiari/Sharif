@@ -9,11 +9,35 @@
 
 @layer base {
   body {
-    @apply font-iranSans text-primary-black;
+    @apply font-iranSans text-base text-primary-black select-none;
   }
 }
 @layer components {
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
   .widgetHover {
-    @apply w-full h-full px-2 bg-primary-blue rounded-xl flex flex-col gap-1
+    @apply w-full h-full px-2 bg-primary-blue rounded-xl flex flex-col gap-1;
+  }
+  .searchBarClose {
+    @apply w-7 h-6 rounded-full bg-primary-white ml-3 transition-all duration-200 flex justify-end items-center;
+  }
+  .searchBarOpen {
+    @apply w-39 h-6 rounded-full bg-primary-white ml-3 transition-all duration-200 flex justify-between items-center;
   }
 }
