@@ -47,11 +47,8 @@ export default {
       },
       backgroundImage: {
         'heroWidgetOne': "url('../../resource/images/heroSectionWidget/sharifCast.png')",
-        'heroWidgetOneHover': "url('../../resource/images/heroSectionWidget/sharifCastHover.png')",
         'heroWidgetTwo': "url('../../resource/images/heroSectionWidget/introduceSharif.png')",
-        'heroWidgetTwoHover': "url('../../resource/images/heroSectionWidget/introduceSharifHover.png')",
         'heroWidgetThree': "url('../../resource/images/heroSectionWidget/Amriye.png')",
-        'heroWidgetThreeHover': "url('../../resource/images/heroSectionWidget/AmriyeHover.png')",
       },
       // Spacing
       spacing: {
